@@ -1,0 +1,17 @@
+albumentations
+opencv-python
+pudb
+imageio
+imageio-ffmpeg
+pytorch-lightning
+omegaconf
+test-tube
+streamlit
+einops
+torch-fidelity
+transformers
+h5py
+kornia
+-e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+-e git+https://github.com/openai/CLIP.git@main#egg=clip
+-e .
